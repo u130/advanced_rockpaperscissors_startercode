@@ -19,14 +19,20 @@
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
 
 //GLOBAL VARIABLES
-var userChoice = ""
-var computerChoice = "" 
-var winner = "" 
-var choices = [“rock”, “paper”, “scissors”]
+var userChoice = ""; 
+var computerChoice = ""; 
+var choices = ["rock","paper","scissors"];
+
 
 //FUNCTIONS
 
-
+//  for(choices = 0;  choices > 2; choices++) {
+// choices = Math.floor( Math.random() * 2 ); 
+// var myElement = choices[Math.floor(Math.random() * choices.length)];
+// console.log(myElement);
+ var randomValue = Math.floor(Math.random() * choices.length);
+computerChoice = choices[randomValue];
+console.log(computerChoice);
 
 // DOCUMENT READY FUNCTION
 
